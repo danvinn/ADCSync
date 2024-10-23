@@ -1,11 +1,11 @@
 # CCT GUI Setup Application
 
+![C&DH High-Level State Machine](https://github.com/danvinn/ADCSync/blob/main/img/stateMachine.png)
+
 ## Overview
 The CCT GUI Setup Application is a Qt-based desktop application designed for visualizing and interacting with sensor data. This project demonstrates a system for collecting and transmitting sensor data from a VN-100 IMU/AHRS to a host laptop. The system utilizes an STM32F446RE microcontroller as the central processing unit, an HM-10 Bluetooth Low Energy (BLE) module for wireless communication, and an nRF52840 microcontroller as a gateway between the BLE network and the host laptop.
 
 ![C&DH Hardware Process](https://github.com/danvinn/ADCSync/blob/main/img/cdh_flow.drawio.png)
-
-![C&DH High-Level State Machine](https://github.com/danvinn/ADCSync/blob/main/img/stateMachine.png)
 
 ## Features
 - **Sensor Diagnostics**: Verifies sensor integrity with a checksum check.
